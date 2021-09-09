@@ -37,7 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Mi propia aplicacion 
+    'customers',
+    'products',
+    'profiles',
+    'reports',
+    'sales',
+    # 
+    'crispy_forms',
 ]
+CRISPY_TEMPLATE_PACK = 'bootsrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
